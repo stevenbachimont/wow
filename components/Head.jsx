@@ -5,7 +5,7 @@ function Head() {
         <nav>
             <h1 className="headTitle">Wow !</h1>
             <ul className="headList">
-                <li className="headLien">Bonjour</li>
+                <li className="headLien">Donjour</li>
                 <li className="headLien">Salut</li>
                 <li className="headLien">Merci</li>
             </ul>
