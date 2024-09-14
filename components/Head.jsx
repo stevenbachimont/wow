@@ -6,8 +6,8 @@ function Head() {
             <h1 className="headTitle">Wow !</h1>
             <ul className="headList">
                 <li className="headLien">Donjour</li>
-                <li className="headLien">Salut</li>
-                <li className="headLien">Merci</li>
+                <li className="headLien">Talut</li>
+                <li className="headLien">kerci</li>
             </ul>
         </nav>
     )
