@@ -20,7 +20,8 @@ jobs:
 
 
       - name: Build Docker image
-        run: docker build -t stevenbachimont/wow:latest .
+        run: docker build --no-cache -t stevenbachimont/wow:latest .
+
 
 
       - name: Push Docker image
@@ -41,5 +42,7 @@ jobs:
           port: 22
           script: |
             cd /root/wow
+            git pull origin main
             docker-compose pull web  
             docker-compose up -d web  
+            docker image prune -f
