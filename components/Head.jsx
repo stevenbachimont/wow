@@ -3,11 +3,11 @@ import "/components/Head.css"
 function Head() {
     return(
         <nav>
-            <h1 className="headTitle">Wow !</h1>
+            <h1 className="headTitle">Steven BACHIMONT</h1>
             <ul className="headList">
-                <li className="headLien">Donjour</li>
-                <li className="headLien">Talut</li>
-                <li className="headLien">kerci</li>
+                <li className="headLien">Bonjour</li>
+                <li className="headLien">Salut</li>
+                <li className="headLien">Merci</li>
             </ul>
         </nav>
     )

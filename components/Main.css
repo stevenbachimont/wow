@@ -11,6 +11,11 @@
     width: 300px;
 }
 
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
 @media screen and (max-width: 400px) {
     .main-container {
         margin: 110px;

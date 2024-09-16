@@ -14,7 +14,7 @@ RUN npm install --frozen-lockfile
 COPY . .
 
 # Exposer le port utilisé par l'application (8000 si c'est celui-ci que vous utilisez)
-EXPOSE 8181
+EXPOSE 8000
 
 # Démarrer l'application en mode développement (ou production selon les besoins)
 CMD ["npm", "run", "dev"]
