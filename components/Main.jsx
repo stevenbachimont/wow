@@ -2,11 +2,11 @@ import "/components/Main.css";
 import Card from './Card';
 
 function Main() {
-    const nftList = [
+    const sectionList = [
         {
             image: "https://media3.giphy.com/avatars/doodlesbyburnttoast/dMqxHmPPA8fd.gif",
-            titre: "portfolio",
-            description: "développeur web fullstack JS",
+            titre: "Portfolio",
+            description: "Développeur web fullstack JS",
             link: "https://portfolio.stevenbachimont.com/"
         },
         {
@@ -31,12 +31,12 @@ function Main() {
 
     return (
         <div className="main-container">
-            {nftList.map((nft, index) => (
-                <a key={index} href={nft.link} target="blank"  className="card-link">
+            {sectionList.map((section, index) => (
+                <a key={index} href={section.link} target="blank"  className="card-link">
                     <Card
-                        image={nft.image}
-                        titre={nft.titre}
-                        description={nft.description}
+                        image={section.image}
+                        titre={section.titre}
+                        description={section.description}
                      />
                 </a>
             ))}

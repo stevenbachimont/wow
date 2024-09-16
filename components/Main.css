@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    background-color: #181818;
 }
 
 .card {

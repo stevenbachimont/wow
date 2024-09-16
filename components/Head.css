@@ -41,10 +41,10 @@ li:hover {
 
 nav:hover {
     background-color: #797d9b;
-        color: #2d2c21;
+        color: #181818;
     .headTitle {
             scale: 400%;
-            margin: 100px;
+            margin-left: 400px;
         }
     }
 
