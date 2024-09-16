@@ -6,25 +6,25 @@ function Main() {
         {
             image: "https://media3.giphy.com/avatars/doodlesbyburnttoast/dMqxHmPPA8fd.gif",
             titre: "portfolio",
-            description: "blablabla",
+            description: "développeur web fullstack JS",
             link: "https://portfolio.stevenbachimont.com/"
         },
         {
             image: "https://media.tenor.com/cUzMbdPym1YAAAAd/doodle-doodles.gif",
-            firstName: "Hangry",
-            lastName: "DOODLES",
+            titre: "Hangry",
+            description: "DOODLES",
             link: "/hangry"
         },
         {
             image: "https://i.giphy.com/jQb5vQCpxZk6WgrB3z.webp",
-            firstName: "Beat",
-            lastName: "DOODLES",
+            titre: "Beat",
+            description: "DOODLES",
             link: "/beat"
         },
         {
             image: "https://openseauserdata.com/files/1de504ef743bdd851b637488b24dba25.gif",
-            firstName: "Super",
-            lastName: "DOODLES",
+            titre: "Super",
+            description: "DOODLES",
             link: "/super"
         },
     ];
@@ -35,9 +35,9 @@ function Main() {
                 <a key={index} href={nft.link} target="blank"  className="card-link">
                     <Card
                         image={nft.image}
-                        firstName={nft.titre}
-                        lastName={nft.description}
-                    />
+                        titre={nft.titre}
+                        description={nft.description}
+                     />
                 </a>
             ))}
         </div>

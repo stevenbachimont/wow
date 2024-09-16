@@ -10,7 +10,11 @@
 .card:hover {
     background-color: #505050;
     scale: 110%;
+    color: #ffce00;
+    cursor: pointer;
 }
+
+
 
 .card img {
     width: 100%;
@@ -23,6 +27,11 @@
 
 h4 {
     margin: 0;
+}
+
+a {
+    color: #eadede;
+    text-decoration: none;
 }
 
 
