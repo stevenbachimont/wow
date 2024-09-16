@@ -50,7 +50,7 @@ nav:hover {
 
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 820px) {
 
     .headList {
         display: flex;
@@ -65,7 +65,6 @@ nav:hover {
         background-color: #797d9b;
         color: #2d2c21;
         .headTitle {
-            scale: 100%;
             margin: 10px;
         }
     }
