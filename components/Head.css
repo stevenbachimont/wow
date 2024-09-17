@@ -18,6 +18,7 @@ nav {
     text-align: center;
     font-size: 24px;
     margin: 10px;
+    color: #8a876d;
 }
 
 .headList {
@@ -45,6 +46,7 @@ nav:hover {
     .headTitle {
             scale: 400%;
             margin-left: 400px;
+        color: #181818;
         }
     }
 

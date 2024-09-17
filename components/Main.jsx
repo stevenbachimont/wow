@@ -4,27 +4,27 @@ import Card from './Card';
 function Main() {
     const sectionList = [
         {
-            image: "https://media3.giphy.com/avatars/doodlesbyburnttoast/dMqxHmPPA8fd.gif",
+            image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
             titre: "Portfolio",
             description: "Développeur web fullstack JS",
             link: "https://portfolio.stevenbachimont.com/"
         },
         {
-            image: "https://media.tenor.com/cUzMbdPym1YAAAAd/doodle-doodles.gif",
-            titre: "Hangry",
-            description: "DOODLES",
+            image: "https://media.tenor.com/cLie0_-bDYUAAAAM/shovel-kid.gif",
+            titre: "En chantier",
+            description: "patientez",
             link: "/hangry"
         },
         {
-            image: "https://i.giphy.com/jQb5vQCpxZk6WgrB3z.webp",
-            titre: "Beat",
-            description: "DOODLES",
+            image: "https://www.yves.brette.biz/public/autres_arts/construction_chantier_bouygues.gif",
+            titre: "En construction",
+            description: "patientez",
             link: "/beat"
         },
         {
-            image: "https://openseauserdata.com/files/1de504ef743bdd851b637488b24dba25.gif",
-            titre: "Super",
-            description: "DOODLES",
+            image: "https://media.tenor.com/447Zd_RUDnwAAAAM/mud-drink.gif",
+            titre: "En attente",
+            description: "patientez",
             link: "/super"
         },
     ];
