@@ -13,19 +13,19 @@ function Main() {
             image: "https://media.tenor.com/cLie0_-bDYUAAAAM/shovel-kid.gif",
             titre: "En chantier",
             description: "patientez",
-            link: "/hangry"
+            link: "/page1"
         },
         {
             image: "https://www.yves.brette.biz/public/autres_arts/construction_chantier_bouygues.gif",
             titre: "En construction",
             description: "patientez",
-            link: "/beat"
+            link: "/page2"
         },
         {
             image: "https://media.tenor.com/447Zd_RUDnwAAAAM/mud-drink.gif",
             titre: "En attente",
             description: "patientez",
-            link: "/super"
+            link: "/page3"
         },
     ];
 
