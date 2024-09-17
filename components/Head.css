@@ -50,7 +50,18 @@ nav:hover {
         }
     }
 
+@media screen and (max-width: 1150px) {
 
+    nav:hover {
+        background-color: #797d9b;
+        color: #2d2c21;
+        .headTitle {
+            margin: 150px;
+            scale: 200%;
+        }
+    }
+
+}
 
 @media screen and (max-width: 820px) {
 

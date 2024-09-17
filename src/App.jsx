@@ -4,10 +4,10 @@ import Footer from '/components/Footer.jsx';
 import Main from '/components/Main.jsx';
 import './App.css';
 
-// Importez vos nouvelles pages ici
-import Hangry from '/pages/Hangry.jsx';
-import Beat from '/pages/Beat.jsx';
-import Super from '/pages/Super.jsx';
+
+import Page2 from '/pages/page2.jsx';
+import Page1 from '/pages/page1.jsx';
+import Page3 from '/pages/page3.jsx';
 
 function App() {
     return (
@@ -15,9 +15,9 @@ function App() {
             <Head />
             <Routes>
                 <Route path="/" element={<Main />} />
-                <Route path="/hangry" element={<Hangry />} />
-                <Route path="/beat" element={<Beat />} />
-                <Route path="/super" element={<Super />} />
+                <Route path="/page1" element={<Page1 />} />
+                <Route path="/page2" element={<Page2 />} />
+                <Route path="/page3" element={<Page3 />} />
             </Routes>
             <Footer />
         </Router>
