@@ -6,19 +6,19 @@ function Main() {
         {
             image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
             titre: "Portfolio1",
-            description: "Développeur web fullstack JS",
+            description: "Style classique",
             link: "https://portfolio.stevenbachimont.com/"
         },
         {
             image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
             titre: "Portfolio2",
-            description: "Développeur web fullstack JS",
+            description: "style start up",
             link: "https://portfolio2.stevenbachimont.com/"
         },
         {
             image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
             titre: "Portfolio3",
-            description: "Développeur web fullstack JS",
+            description: "style marketplace",
             link: "https://portfolio3.stevenbachimont.com/"
         },
         {
@@ -32,12 +32,12 @@ function Main() {
     return (
         <div className="main-container">
             {sectionList.map((section, index) => (
-                <a key={index} href={section.link} target="blank"  className="card-link">
-                    <Card
+                <a key={index} href={section.link} target="_blank" rel="noopener noreferrer" className="card-link">
+                        <Card
                         image={section.image}
                         titre={section.titre}
                         description={section.description}
-                     />
+                    />
                 </a>
             ))}
         </div>
