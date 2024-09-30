@@ -23,8 +23,8 @@ function Main() {
         },
         {
             image: "https://www.yves.brette.biz/public/autres_arts/construction_chantier_bouygues.gif",
-            titre: "En attente",
-            description: "patientez",
+            titre: "Patientez",
+            description: "Next.JS, Typescript et SCSS",
             link: "/page3"
         },
     ];
