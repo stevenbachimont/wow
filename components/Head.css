@@ -31,12 +31,12 @@ nav {
 }
 
 
-li {
+.headLien {
     margin-bottom: 5px;
     cursor: pointer;
 }
 
-li:hover {
+.headLien:hover {
         color: #ffcc00;
 }
 

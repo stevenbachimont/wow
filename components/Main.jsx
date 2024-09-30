@@ -6,19 +6,19 @@ function Main() {
         {
             image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
             titre: "Portfolio1",
-            description: "Style classique",
+            description: "React.JS et CSS classique",
             link: "https://portfolio.stevenbachimont.com/"
         },
         {
             image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
             titre: "Portfolio2",
-            description: "style start up",
+            description: "React.JS et TailwindCSS",
             link: "https://portfolio2.stevenbachimont.com/"
         },
         {
             image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
             titre: "Portfolio3",
-            description: "style marketplace",
+            description: "React.JS et Bootstrap",
             link: "https://portfolio3.stevenbachimont.com/"
         },
         {
@@ -31,6 +31,7 @@ function Main() {
 
     return (
         <div className="main-container">
+            <h2>4 portfolios, une seule base de donnée et son server Express.JS/Nest.JS</h2>
             {sectionList.map((section, index) => (
                 <a key={index} href={section.link} target="_blank" rel="noopener noreferrer" className="card-link">
                         <Card
