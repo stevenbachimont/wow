@@ -32,9 +32,10 @@ function Main() {
     return (
         <div className="main-container">
             <h2>4 portfolios, une seule base de donnée et son server Express.JS/Nest.JS</h2>
+            <h3>Patientez encore quelques semaines, tout est un peu en chantier mais c'est ouvert au public</h3>
             {sectionList.map((section, index) => (
                 <a key={index} href={section.link} target="_blank" rel="noopener noreferrer" className="card-link">
-                        <Card
+                    <Card
                         image={section.image}
                         titre={section.titre}
                         description={section.description}
