@@ -2,7 +2,7 @@ import "/components/Main.css";
 import Card from './Card';
 
 function Main() {
-    const sectionList = [
+    const portfoliosList = [
         {
             image: "https://api.stevenbachimont.com/img/wow/portfolio1.png",
             titre: "Portfolio1",
@@ -37,7 +37,7 @@ function Main() {
         </div>
     <div className="main-container">
 
-        {sectionList.map((section, index) => (
+        {portfoliosList.map((section, index) => (
             <a key={index} href={section.link} target="_blank" rel="noopener noreferrer" className="card-link">
                     <Card
                         image={section.image}
