@@ -23,8 +23,8 @@ function Main() {
         },
         {
             image: "https://www.yves.brette.biz/public/autres_arts/construction_chantier_bouygues.gif",
-            titre: "Patientez",
-            description: "Next.JS, Typescript et SCSS",
+            titre: "Pourquoi pas un 4ème portfolio ?",
+            description: "explications sur la construction de ces portfolios",
             link: "/page3"
         },
     ];
@@ -32,7 +32,7 @@ function Main() {
     return (
         <>
         <div className="title-container">
-            <h2>4 portfolios, une seule base de donnée et son server Express.JS/Nest.JS</h2>
+            <h2>3 portfolios, une seule base de donnée et son server Express.JS</h2>
             <h3>Patientez encore quelques semaines, tout est un peu en chantier mais c'est ouvert au public</h3>
         </div>
     <div className="main-container">
