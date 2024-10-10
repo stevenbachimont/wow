@@ -4,19 +4,19 @@ import Card from './Card';
 function Main() {
     const sectionList = [
         {
-            image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
+            image: "https://api.stevenbachimont.com/img/wow/portfolio1.png",
             titre: "Portfolio1",
             description: "React.JS et CSS classique",
             link: "https://portfolio.stevenbachimont.com/"
         },
         {
-            image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
+            image: "https://api.stevenbachimont.com/img/wow/portfolio2.png",
             titre: "Portfolio2",
             description: "React.JS et TailwindCSS",
             link: "https://portfolio2.stevenbachimont.com/"
         },
         {
-            image: "https://raw.githubusercontent.com/cirla/vim-giphy/master/demo.gif",
+            image: "https://api.stevenbachimont.com/img/wow/portfolio3.png",
             titre: "Portfolio3",
             description: "React.JS et Bootstrap",
             link: "https://portfolio3.stevenbachimont.com/"
